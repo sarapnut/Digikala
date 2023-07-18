@@ -1,0 +1,13 @@
+@import "../css/menu.css";
+@import "../css/main.css";
+@import "../css/slider.css";
+
+*{
+    padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: sens;
+     font-weight: 100;
+     font-size: 12px;
+  
+ }

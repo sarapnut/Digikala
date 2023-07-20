@@ -22,13 +22,21 @@ z-index: 998;
   div.menu>nav>ul>li.city{
  position: relative;
  right: 150px;
+ transition: 200ms;
+  }
+  div.menu>nav>ul>li:hover{
+    transition: 200ms;
+border-bottom: 2px solid #EF3A4F;
+transition-timing-function: cubic-bezier(.55,-0.01,0,.98);
+transition-duration: 100ms;
   }
   div.menu>nav>ul>li{
     width: auto;
-    height: inherit;
+    height: 34px;
     display: inline-block;
     position: relative;
     margin-right: 20px;
+    transition: 200ms;
   }
   div.menu>nav>ul>li>a.daste{
     text-decoration: none;
@@ -99,6 +107,10 @@ z-index: 998;
     position: relative;
     bottom: 20px;
   }
+  div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.first>ul>a.topi>span{
+    position: relative;
+    top: 5px;
+  }
   div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.first{
     width: 21%;
     height: 500px;
@@ -131,9 +143,15 @@ z-index: 998;
     color: #EF3A4F;
     transition: 100ms;
   }
-  div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.first>ul>li.bold>a:hover,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.second>ul>li.bold>a:hover,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.third>ul>li.bold>a:hover,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.fifth>ul>li.bold>a:hover{
+  div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.first>ul>li.bold>a:hover,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.second>ul>li.bold>a:hover,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.third>ul>li.bold>a:hover,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.fifth>ul>li.bold>a:hover
+{
     color: #EF3A4F;
-    transition: 300ms;
+    transition: 100ms;
+  }
+  div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.first>ul>li.bold>a>span,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.second>ul>li.bold>a>span,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.third>ul>li.bold>a>span,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.fifth>ul>li.bold>a>span{
+position: relative;
+top: 5px;
+color: #EF3A4F;
   }
   div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.first>ul>li.bold>a,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.second>ul>li.bold>a,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.third>ul>li.bold>a,div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.left>div.fifth>ul>li.bold>a
     {

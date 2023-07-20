@@ -85,6 +85,10 @@ margin-bottom: 0px;
    text-decoration: none;
     font-size: 20px;
   }
+  div.box>div.swiper2>div.swiper-wrapper>div.swiper-slide1>a.a1>span{
+    position: relative;
+    top: 3px;
+  }
   div.box>div.swiper2>div.swiper-wrapper>div.swiper-slide>a{
     text-decoration: none;
   }
@@ -239,6 +243,10 @@ div.forosh>div.topsell>h1>span{
 div.forosh>div.topsell{
   width: 100%;
   text-align: center;
+}
+div.forosh>div.topsell>a>span{
+  position: relative;
+  top: 5px;
 }
 div.forosh>div.topsell>a{
   text-decoration: none;
